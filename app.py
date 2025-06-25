@@ -161,7 +161,7 @@ elif page == "➕ Tambah Produk":
         harga_input = st.text_input("Harga Produk (INR)", "500")
         harga_min_input = st.text_input("Harga Minimum", "0")
         harga_max_input = st.text_input("Harga Maksimum", "0")
-        gender = st.selectbox("Gender", ["Men", "Women", "Unisex", "Boys", "Girls"])
+        gender = st.selectbox("Gender", ["Men", "Women"])
         warna = st.text_input("Warna Produk (opsional)")
         brand = st.text_input("Brand (opsional)")
         submit = st.form_submit_button("Tambah Produk")
